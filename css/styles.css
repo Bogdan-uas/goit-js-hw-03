@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-    background-color: green;
+    background-color: red;
     cursor: pointer;
 
     width: 700px;
@@ -23,6 +23,16 @@
 
 .button:hover .main-title {
     letter-spacing: 0.5em;
+}
+
+.span {
+    display: none;
+    font-size: 10px;
+    transition: display 1000ms ease-in-out;
+}
+
+.button:hover .span {
+    display: inline;
 }
 
 .main-title {
